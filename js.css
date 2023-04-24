@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+body {
+    background: linear-gradient(to right, #4286f4, #373B44);
+}
+
+#aba {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 10px;
+}
+
+.login_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    width: 300px;
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+
+.login{
+    margin-top: 20px;
+    color: white;
+}
+.usuario {
+    padding-right: 105px;
+    margin-top: 20px;
+    color: white;
+}
+
+.senha {
+    padding-right: 115px;
+    margin-top: 20px;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 5px 55px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    opacity: 0.8;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 10px 5px 10px black;
+}
+
+#claro {
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+}

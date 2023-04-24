@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="js.css">
+    <link rel="icon" href="imagens/icone.jpg">
+
+    <script type="text/JavaScript">
+
+    var x = false;
+    var y = document.getElementById("corpo");
+
+    function Teste() 
+        {
+            var a = document.getElementById("Usuario_input").value;
+            var b = document.getElementById("Senha_input").value;
+    
+            if ( a == "admin" & b == 123 ) {
+            alert("Só sucesso!");            
+            }
+            else 
+            {
+            alert("Só derrota!");
+            }
+    
+        }
+    
+
+
+    function cores(param)
+    {
+        var x = param;
+
+
+
+
+        switch (x) 
+        {
+            case true:
+                y.classList.remove("body")
+                y.classList.add("claro")
+                break;
+
+                case false:
+                y.classList.add("body")
+                y.classList.remove("claro")
+                break;
+        }
+    }
+
+
+function teste2()
+{
+
+
+if ( x == true ){
+x = false;
+alert("false");
+}
+else
+{
+x = true;
+alert("true");
+}
+
+cores(x)
+
+}
+
+
+    </script>
+
+</head>
+
+<body id="corpo">
+        <div class="login_input">
+
+            <h1 class="login">LOGIN</h1>
+
+            <h3 class="usuario">Usuário:</h3>
+            <input type="text" id="Usuario_input">
+
+            <h3 class="senha">Senha:</h3>
+            <input type="password" id="Senha_input">
+
+            <button onclick="Teste()">ENTRAR</button>
+
+            <button id="tema" onclick="teste2()">Mudar tema</button>
+        </div>
+</body>
+
+
+
+</html>
+

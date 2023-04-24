@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#aba {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    padding: 10px;
+}
+
+.identificação {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Courier New';
+}
+
+#dados {
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+    line-height: 80px;
+}
+
+.conteudo {
+    position: relative;
+    top: 35px;
+    margin-left: 30px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Courier New';
+}
+
+.titulo {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#foto {
+    border-radius: 250px;
+}
+
+div a {
+    color: black;
+}
